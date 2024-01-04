@@ -54,12 +54,12 @@ const DraftForm = () => {
             </div>
 
             <div className="prompt-message">
-                <p>Enter email message:</p>
+                <p>Enter message for email:</p>
             </div>
 
             <textarea
                 className="text-area"
-                placeholder="Enter your text here..."
+                placeholder="I wanna tell my boss I cant work tomorrow..."
                 value={inputText}
                 onChange={(e) => setInputText(e.target.value)}
             />
