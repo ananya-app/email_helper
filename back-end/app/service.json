@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "sound-machine-409704",
+  "private_key_id": "b76db80c8d3f8e4fd9de47ac4159dedc022b13db",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDMyGRv8HC9W72p\nd8ENKv2PCapYn37WaHRkvNUiOZrrghWHUINtZ9xHBgI+mmfXwY/UIA7VFGnPrEZY\n40C7jewAc1w+6t2a7WumVn8TyGf7soT1peMcOpwuN3W7zR9Gm/n0mt05LfIIqUnh\nqvDLUM7J9B+24eOpKrg9GH8txipGFvJ+3+GJxKqQbZ8+RP1KXSidfMPO/JsDrd9G\ntMrXm+AzjiFSVywiBYWWV7ZEZ1C1gFo9MM9cBORs+BLkSgJczmDYrCLJgGQbGv56\n10x5/qFPN20MmKKTYqLSU4CMwXuUVzACAQxrmVry8EcBkD5ihQF94Wg9lG+Enj3u\ndjr0cP73AgMBAAECggEARIRB8qAgoIK6/SIn0geRydOCjt9imUtesjvqFebvOiAO\novUh3C+1aIAOrTKNTweg32kQfWO0mXr7GI+En5w3G9l9QkHj/ou0inWDVDOn8vOC\ngAxOZioICoCc4Eab0cyrP5e3MAP66MH3ic1ffq9dWP3YxKBkwzubZDm3h7G3gDZg\nKbhhywIYks7Q68YodRX3n1LFt1lK1uMang9usEa0GrQ5j7e0eu/Nkn+qwbeyTo1E\nlOKYY6QONHWnBGLCgBAyq10gbjwkC1WBw4ODAhYWhcFHeUudprVYB7z3yQU7uMDs\n8+P3nhCMeLaeTCjwOWHDzvrpmMDGyGWYn3SOA+Vg5QKBgQD/vwwF7wafJhvRuuQM\nmoZXDzwh91Z4r8d58nrd8vARoAFzBHDu0A4aENSPn+6ziH0N8nc1EjzrCUwvkHa6\nZEx5KSNjuifp0GH3BxxsCp25rpV7r9p/b6eDqtk9UHpHNOWQEVZTSTOoYl3Hldlh\nZLFYxOtZjo8KtnJtUV2jzhr8HQKBgQDM/Gble49nFNfwKz0Sh4Vd3EhQU8aWg3y+\ni9O9Cp8WrmXXZ/7QEL3f54sKR6CnDMKhKQwAIAPbMTPpa9fS8DpIc6x/QLM9j0bd\nlfsSDs2bocdvE3hr7auwy/5bePm0RVTTjQXozuWZzKHlj4erSDsMmQ6dTrGG88V5\nGTWM2mXzIwKBgQDNUwzMFsMyMt5S28ELfWQtsUWN343FBxsXhN2wI8Mp41RGi2I/\n2Tn5I1oElVqHOSVtdSTPrvzJloVcCpfHvY7IF4caIfK5fVupgEQJWdyXntrUmrLJ\nbVMIGrqex2XklUtZBxJPe43FunOgMWZ9EuJvammpVRLyftgPfCu5v1da4QKBgHCS\ngJOwWp2alcgghsahRD26lr/+cgYAqcYfFiYwKhQTrHwycX6kYxIOn44CrhhvaoeE\n+kErU9LRX5fmEL2YDfnyBJ5R0t2QzLMuBZbyKDo7C0JV6AEloe9S6BomAsPce2w+\neytSTEc9WP+v5irLXRpbB+qd5+KcByutC3qSCgEPAoGAGiY1XtwUd/3bo9GO7wvD\nxI052wk+chXZhkaKFr44+2+ImjDV/aiUCHjsDEztoK8oD3BEtZfISnEQMsTKnBC3\nbMhalS86QMXWjlQ7SHpKdDx+NlGysBSSZBSVrGbXrAXmkzsInJx6Z3TdySEUZACG\n3T/YNVL9Z+SRQFIOZvt/B48=\n-----END PRIVATE KEY-----\n",
+  "client_email": "service@sound-machine-409704.iam.gserviceaccount.com",
+  "client_id": "114390431267660881781",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/service%40sound-machine-409704.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
