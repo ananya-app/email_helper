@@ -1,0 +1,103 @@
+/* Enhanced Pastel Space Theme with Interactive and Accessible Elements */
+:root {
+    --retro-font: 'Press Start 2P', cursive;
+    --pastel-blue: #a7c7e7; /* Soft Pastel Blue */
+    --pastel-pink: #f3b0c3; /* Soft Pastel Pink */
+    --pastel-purple: #c6a9f7; /* Soft Pastel Purple */
+    --dark-space: #1a1c2b; /* Dark Space Background */
+    --dark-slate: #2c3e50; /* Dark Slate Blue */
+    --white: #ffffff; /* White for Contrast */
+    --pixel-border: #7ec8e3; /* Pixel Art Border */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-color: var(--dark-space);
+    font-family: var(--retro-font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: var(--white);
+}
+
+.draft-form-container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    background-color: var(--dark-space);
+    box-shadow: 0 0 15px var(--pastel-blue);
+    text-align: center;
+    border: 4px dotted var(--pixel-border);
+}
+
+input[type="email"], input[type="text"], textarea {
+    font-family: 'Arial', sans-serif;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid var(--pastel-pink);
+    border-radius: 4px;
+    background-color: var(--white);
+    color: var(--dark-space);
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="email"]:hover, input[type="text"]:hover, textarea:hover,
+input[type="email"]:focus, input[type="text"]:focus, textarea:focus {
+    border-color: var(--pastel-blue);
+    box-shadow: 0 0 10px var(--pastel-blue);
+}
+
+button {
+    background-color: var(--pastel-pink);
+    font-family: var(--retro-font);
+    color: var(--dark-space);
+    border: 2px solid var(--pastel-blue);
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: background-color 0.3s ease, transform 0.2s, box-shadow 0.3s ease;
+}
+
+button:hover, button:focus {
+    background-color: var(--pastel-blue);
+    color: var(--white);
+    transform: translateY(-2px);
+    box-shadow: 0 0 10px var(--pastel-purple);
+}
+
+button:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+
+/* Progress Bar Styles */
+.progress-bar {
+    background-color: var(--white);
+    border-radius: 4px;
+    padding: 2px;
+    margin: 10px 0;
+}
+
+.progress {
+    background-color: var(--pastel-purple);
+    height: 10px;
+    border-radius: 2px;
+    transition: width 0.3s ease;
+}
+
+/* Prompt Message */
+.prompt-message {
+    margin-bottom: 15px;
+    color: var(--pastel-blue);
+    font-size: 0.8rem;
+}

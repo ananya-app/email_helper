@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.oauth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #2c3e50; /* Dark background for retro feel */
+}
+
+.retro-button {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #0A84FF; /* Bright blue, common in retro themes */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-shadow: 0 4px #006CDB;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    text-transform: uppercase; /* Retro style often uses uppercase text */
+}
+
+.retro-button:hover {
+    background-color: #0056B3;
+}
+
+.retro-button:active {
+    background-color: #0056B3;
+    box-shadow: 0 2px #006CDB;
+    transform: translateY(2px);
+}
+
+.retro-button:focus {
+    border: 2px solid #FFCC00; /* Retro yellow outline for focus */
+}
+
