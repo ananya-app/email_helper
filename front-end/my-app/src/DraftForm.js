@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './DraftForm.css';
 
@@ -69,10 +69,6 @@ const DraftForm = () => {
 
             {editableText && (
                 <>
-                    <textarea
-                        value={editableText}
-                        onChange={(e) => setEditableText(e.target.value)}
-                    />
                     <input
                         type="email"
                         value={mailto}
@@ -84,6 +80,11 @@ const DraftForm = () => {
                         value={subject}
                         onChange={(e) => setSubject(e.target.value)}
                         placeholder="Email Subject"
+                    />
+                    <textarea
+                        class="bigger-textarea"
+                        value={editableText}
+                        onChange={(e) => setEditableText(e.target.value)}
                     />
                     <button onClick={handleDraftSubmit} disabled={isLoading}>
                         {isLoading ? 'Creating...' : 'Create Draft'}

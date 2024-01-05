@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "app"
 version = "0.0.1"
-description = "Calender API tool"
+description = "Email API tool"
 authors = ["ananya-app"]
 
 [tool.poetry.dependencies]

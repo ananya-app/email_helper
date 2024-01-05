@@ -16,7 +16,9 @@ def process_text(content):
             "role": "system",
             "content": f"""Here is the problem: the user is struggling to write an effective email.
             You will be provided with text that the user intends to send as an email. 
-            Your task is to convert the text into a semi-formal email message, with a professional and polite tone.
+            Your task is to convert the text into an email message. 
+            The tone should be semi-formal (NOT OVERLY FORMAL), professional and polite.
+            Focus on conciseness. Use as few words as possible. 
             Keep the email short and to the point. Send a full email message, and make sure it is under a 100 words.
             """
         },
@@ -25,7 +27,7 @@ def process_text(content):
             "content": content
         }
         ],
-        temperature=0.2, # setting temperature as 0.5 for more deterministic outputs
+        temperature=0.7, 
         max_tokens=512,
         top_p=1
     )

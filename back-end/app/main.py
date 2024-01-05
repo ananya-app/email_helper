@@ -17,7 +17,7 @@ import os
 
 
 # create an app object
-app = FastAPI(title="Calender API", openapi_url="/openapi.json")
+app = FastAPI(title="Email API", openapi_url="/openapi.json")
 
 # location of frontend framework
 origins = [
