@@ -1,8 +1,8 @@
 # imports
 import os
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = 'API-key'
 import openai
-openai.api_key = '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'
+openai.api_key = 'API-key'
 from datetime import datetime
 SEED = 3
 
